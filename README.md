@@ -1,5 +1,5 @@
 # <img src="https://github.com/mrousavy/Toast/blob/master/ToastDemo/Resources/Toast_Icon.ico?raw=true" width="42"> Toast
-Android Toast for C# WPF
+Android Toast for WPF
 
 [Download the Demo (.exe)](https://github.com/mrousavy/Toast/raw/master/ToastDemo/bin/Release/ToastDemo.zip)
 
