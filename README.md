@@ -1,6 +1,8 @@
 # <img src="https://github.com/mrousavy/Toast/blob/master/ToastDemo/Resources/Toast_Icon.ico?raw=true" width="42"> Toast
 Android Toast for C# WPF
 
+[Download the Demo (.exe)](https://github.com/mrousavy/Toast/raw/master/ToastDemo/bin/Release/ToastDemo.zip)
+
 # How to use
 1. [Download the latest Library (.dll)](https://github.com/mrousavy/Toast/raw/master/Toast/bin/Release/Toast.dll)
 2. Add the .dll to your Project 
