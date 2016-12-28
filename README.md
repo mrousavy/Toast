@@ -24,20 +24,20 @@ Android Toast for C# WPF
 
 4. Add Toast to XAML or in Code
 
-        a. XAML
-        ```
-        <toast:Toast x:Name="myToast" Message="Hello World!" Duration="0:0:0:5"/>
-        ```
+   * XAML
+```
+<toast:Toast x:Name="myToast" Message="Hello World!" Duration="0:0:0:5"/>
+```
 
-        b. C#
-        ```
-        Toast.Toast myToast = new Toast.Toast();
-        myToast.DurationToast = Toast.Toast.ToastDuration.Long;
-        myToast.Message = "Hello World!";
+   * C#
+```
+Toast.Toast myToast = new Toast.Toast();
+myToast.DurationToast = Toast.Toast.ToastDuration.Long;
+myToast.Message = "Hello World!";
 
-        someControl.Children.Add(myToast);
-        someOtherControl.Content = myToast;
-        ```
+someControl.Children.Add(myToast);
+someOtherControl.Content = myToast;
+```
 
 5. Set desired Parameters (`Toast.Duration`/`Toast.DurationToast`, `Toast.Message`/`Toast.Content`, `Toast.DurationAnimation`)
 6. Show Toast `myToast.Show();`
