@@ -8,34 +8,42 @@ Android Toast for C# WPF
 
 3. Add the reference
    * XAML Window
-
-    <Window x:Class="ToastDemo.MainWindow"
+   ```
+   <Window x:Class="ToastDemo.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ToastDemo"
+
         //IMPORTANT LINE!
         xmlns:toast="clr-namespace:Toast;assembly=Toast"
 
         mc:Ignorable="d"
         Title="Toast Demo" Height="350" Width="525">
+   ```
 
    * C# (using)
-    using Toast;
+   ```
+   using Toast;
+   ```
 
 4. Add Toast to XAML or in Code
 
    * XAML
-    <toast:Toast x:Name="myToast" Message="Hello World!" Duration="0:0:0:5"/>
+   ```
+   <toast:Toast x:Name="myToast" Message="Hello World!" Duration="0:0:0:5"/>
+   ```
 
    * C#
-    Toast.Toast myToast = new Toast.Toast();
-    myToast.DurationToast = Toast.Toast.ToastDuration.Long;
-    myToast.Message = "Hello World!";
-
-    someControl.Children.Add(myToast);
-    someOtherControl.Content = myToast;
+   ```
+   Toast.Toast myToast = new Toast.Toast();
+   myToast.DurationToast = Toast.Toast.ToastDuration.Long;
+   myToast.Message = "Hello World!";
+   
+   someControl.Children.Add(myToast);
+   someOtherControl.Content = myToast;
+   ```
 
 5. Set desired Parameters (`Toast.Duration`/`Toast.DurationToast`, `Toast.Message`/`Toast.Content`, `Toast.DurationAnimation`)
 6. Show Toast `myToast.Show();`
