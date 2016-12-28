@@ -1,0 +1,16 @@
+C:\Users\Marc\Documents\Visual Studio 2015\Projects\Toast\ToastDemo\obj\Debug\App.g.cs
+C:\Users\Marc\Documents\Visual Studio 2015\Projects\Toast\ToastDemo\obj\Debug\ToastDemo_MarkupCompile.cache
+C:\Users\Marc\Documents\Visual Studio 2015\Projects\Toast\ToastDemo\bin\Debug\ToastDemo.exe.config
+C:\Users\Marc\Documents\Visual Studio 2015\Projects\Toast\ToastDemo\bin\Debug\ToastDemo.exe
+C:\Users\Marc\Documents\Visual Studio 2015\Projects\Toast\ToastDemo\bin\Debug\ToastDemo.pdb
+C:\Users\Marc\Documents\Visual Studio 2015\Projects\Toast\ToastDemo\bin\Debug\Toast.dll
+C:\Users\Marc\Documents\Visual Studio 2015\Projects\Toast\ToastDemo\bin\Debug\Toast.pdb
+C:\Users\Marc\Documents\Visual Studio 2015\Projects\Toast\ToastDemo\obj\Debug\ToastDemo.csprojResolveAssemblyReference.cache
+C:\Users\Marc\Documents\Visual Studio 2015\Projects\Toast\ToastDemo\obj\Debug\MainWindow.g.cs
+C:\Users\Marc\Documents\Visual Studio 2015\Projects\Toast\ToastDemo\obj\Debug\ToastDemo_MarkupCompile.lref
+C:\Users\Marc\Documents\Visual Studio 2015\Projects\Toast\ToastDemo\obj\Debug\MainWindow.baml
+C:\Users\Marc\Documents\Visual Studio 2015\Projects\Toast\ToastDemo\obj\Debug\ToastDemo.g.resources
+C:\Users\Marc\Documents\Visual Studio 2015\Projects\Toast\ToastDemo\obj\Debug\ToastDemo.Properties.Resources.resources
+C:\Users\Marc\Documents\Visual Studio 2015\Projects\Toast\ToastDemo\obj\Debug\ToastDemo.csproj.GenerateResource.Cache
+C:\Users\Marc\Documents\Visual Studio 2015\Projects\Toast\ToastDemo\obj\Debug\ToastDemo.exe
+C:\Users\Marc\Documents\Visual Studio 2015\Projects\Toast\ToastDemo\obj\Debug\ToastDemo.pdb

@@ -1,0 +1,11 @@
+C:\Users\Marc\Documents\Visual Studio 2015\Projects\Toast\Toast\bin\Release\Toast.dll
+C:\Users\Marc\Documents\Visual Studio 2015\Projects\Toast\Toast\bin\Release\Toast.pdb
+C:\Users\Marc\Documents\Visual Studio 2015\Projects\Toast\Toast\obj\Release\Toast.g.cs
+C:\Users\Marc\Documents\Visual Studio 2015\Projects\Toast\Toast\obj\Release\Toast_MarkupCompile.cache
+C:\Users\Marc\Documents\Visual Studio 2015\Projects\Toast\Toast\obj\Release\Toast_MarkupCompile.lref
+C:\Users\Marc\Documents\Visual Studio 2015\Projects\Toast\Toast\obj\Release\Toast.baml
+C:\Users\Marc\Documents\Visual Studio 2015\Projects\Toast\Toast\obj\Release\Toast.g.resources
+C:\Users\Marc\Documents\Visual Studio 2015\Projects\Toast\Toast\obj\Release\Toast.Properties.Resources.resources
+C:\Users\Marc\Documents\Visual Studio 2015\Projects\Toast\Toast\obj\Release\Toast.csproj.GenerateResource.Cache
+C:\Users\Marc\Documents\Visual Studio 2015\Projects\Toast\Toast\obj\Release\Toast.dll
+C:\Users\Marc\Documents\Visual Studio 2015\Projects\Toast\Toast\obj\Release\Toast.pdb
