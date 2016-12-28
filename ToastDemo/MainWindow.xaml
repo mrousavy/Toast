@@ -1,0 +1,42 @@
+﻿<Window x:Class="ToastDemo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ToastDemo"
+        xmlns:toast="clr-namespace:Toast;assembly=Toast"
+        mc:Ignorable="d"
+        Title="Toast Demo" Height="350" Width="525">
+    <Grid>
+        <StackPanel HorizontalAlignment="Left">
+            <StackPanel Orientation="Horizontal" Margin="5">
+                <Label>Message:</Label>
+                <TextBox Width="200" x:Name="ToastNameBox">Toast Demo Test!</TextBox>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="5">
+                <Label>Duration:</Label>
+
+                <StackPanel Orientation="Horizontal" Margin="5" x:Name="RadioButtonPanel">
+                    <RadioButton GroupName="DurationGroup" VerticalAlignment="Center" Margin="5" x:Name="ShortRadio" IsChecked="True">
+                        Short
+                    </RadioButton>
+                    <RadioButton GroupName="DurationGroup" VerticalAlignment="Center" Margin="5" x:Name="MediumRadio" IsChecked="False">
+                        Medium
+                    </RadioButton>
+                    <RadioButton GroupName="DurationGroup" VerticalAlignment="Center" Margin="5" x:Name="LongRadio" IsChecked="False">
+                        Long
+                    </RadioButton>
+                </StackPanel>
+            </StackPanel>
+
+        </StackPanel>
+        
+        <StackPanel Orientation="Horizontal" VerticalAlignment="Top" Margin="10" HorizontalAlignment="Right">
+            <Button Margin="5" Click="ShowToastClick">Show Toast!</Button>
+            <Button Margin="5" Click="HideToastClick">Hide Toast!</Button>
+        </StackPanel>
+        
+        
+        <toast:Toast x:Name="myToast"></toast:Toast>
+    </Grid>
+</Window>

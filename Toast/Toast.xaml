@@ -4,10 +4,13 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:Toast"
+             VerticalAlignment="Bottom" HorizontalAlignment="Center"
+             Margin="0,0,0,50"
              mc:Ignorable="d" Background="Transparent"
-             d:DesignHeight="30" d:DesignWidth="100">
-    <Border CornerRadius="15" Background="#666666" Opacity="0.6">
-        <TextBlock x:Name="ToastContent" Foreground="White"
-                   VerticalAlignment="Center" HorizontalAlignment="Center">No Message set.</TextBlock>
-    </Border>
+             MaxWidth="250" MaxHeight="90">
+    <Grid>
+        <Border CornerRadius="13"  Background="#666666" Opacity="0.6"/>
+        <TextBlock x:Name="ToastContent" Foreground="White" Margin="6" TextAlignment="Center" TextWrapping="Wrap"
+                       VerticalAlignment="Center" HorizontalAlignment="Center" Text="Hallo"/>
+    </Grid>
 </UserControl>
