@@ -9,6 +9,7 @@
 //------------------------------------------------------------------------------
 
 namespace Toast.Properties {
+    using System;
     
     
     /// <summary>
@@ -37,7 +38,7 @@ namespace Toast.Properties {
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
-                if ((resourceMan == null)) {
+                if (object.ReferenceEquals(resourceMan, null)) {
                     global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Toast.Properties.Resources", typeof(Resources).Assembly);
                     resourceMan = temp;
                 }
@@ -56,6 +57,16 @@ namespace Toast.Properties {
             }
             set {
                 resourceCulture = value;
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+        /// </summary>
+        internal static System.Drawing.Icon Toast_Icon {
+            get {
+                object obj = ResourceManager.GetObject("Toast_Icon", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
             }
         }
     }

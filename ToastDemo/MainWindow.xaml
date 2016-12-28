@@ -8,10 +8,10 @@
         mc:Ignorable="d"
         Title="Toast Demo" Height="350" Width="525">
     <Grid>
-        <StackPanel HorizontalAlignment="Left">
+        <StackPanel HorizontalAlignment="Left" Margin="10">
             <StackPanel Orientation="Horizontal" Margin="5">
                 <Label>Message:</Label>
-                <TextBox Width="200" x:Name="ToastNameBox">Toast Demo Test!</TextBox>
+                <TextBox Width="200" x:Name="ToastNameBox" VerticalAlignment="Center">Toast Demo Test!</TextBox>
             </StackPanel>
             <StackPanel Orientation="Horizontal" Margin="5">
                 <Label>Duration:</Label>

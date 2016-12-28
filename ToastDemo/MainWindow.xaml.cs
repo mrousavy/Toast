@@ -1,7 +1,4 @@
-﻿using System;
-using System.Linq;
-using System.Windows;
-using System.Windows.Controls;
+﻿using System.Windows;
 
 namespace ToastDemo {
     /// <summary>
@@ -24,10 +21,14 @@ namespace ToastDemo {
         private void InitToast() {
             myToast.Content = ToastNameBox.Text;
 
-            var checkedButton = RadioButtonPanel.Children.OfType<RadioButton>()
-                                      .FirstOrDefault(r => (bool)(r.IsChecked));
+            Toast.Toast.ToastDuration duration = Toast.Toast.ToastDuration.Short;
 
-            myToast.DurationToast = (Toast.Toast.ToastDuration)Enum.Parse(myToast.DurationToast.GetType(), checkedButton.Content as string);
+            if(MediumRadio.IsChecked == true)
+                duration = Toast.Toast.ToastDuration.Medium;
+            if(LongRadio.IsChecked == true)
+                duration = Toast.Toast.ToastDuration.Long;
+
+            myToast.DurationToast = duration;
         }
     }
 }
