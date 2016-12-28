@@ -6,9 +6,10 @@ Android Toast for C# WPF
 2. Add the .dll to your Project 
 (Right click `References` in the Project Tree View, click `Add References` and `Browse` to the `.dll` File)
 
-3. Add the reference to your XAML Window
-```
-<Window x:Class="ToastDemo.MainWindow"
+3. Add the reference
+   * XAML Window
+   ```
+   <Window x:Class="ToastDemo.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
@@ -20,7 +21,12 @@ Android Toast for C# WPF
 
         mc:Ignorable="d"
         Title="Toast Demo" Height="350" Width="525">
-```
+   ```
+
+   * C# (using)
+   ```
+   using Toast;
+   ```
 
 4. Add Toast to XAML or in Code
 
