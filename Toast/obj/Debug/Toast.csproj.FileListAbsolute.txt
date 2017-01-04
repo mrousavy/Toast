@@ -9,3 +9,4 @@ C:\Users\Marc\Documents\Visual Studio 2015\Projects\Toast\Toast\obj\Debug\Toast.
 C:\Users\Marc\Documents\Visual Studio 2015\Projects\Toast\Toast\obj\Debug\Toast.csproj.GenerateResource.Cache
 C:\Users\Marc\Documents\Visual Studio 2015\Projects\Toast\Toast\obj\Debug\Toast.dll
 C:\Users\Marc\Documents\Visual Studio 2015\Projects\Toast\Toast\obj\Debug\Toast.pdb
+C:\Users\Marc\Documents\Visual Studio 2015\Projects\Toast\Toast\obj\Debug\Toast.csprojResolveAssemblyReference.cache

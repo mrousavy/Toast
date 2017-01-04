@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>AndroidToast</id>
+    <version>1.0.0.2</version>
+    <authors>mrousavy</authors>
+    <owners>mrousavy</owners>
+    <licenseUrl>https://raw.githubusercontent.com/mrousavy/Toast/master/license.txt</licenseUrl>
+    <projectUrl>http://mrousavy.github.io/Toast</projectUrl>
+    <iconUrl>http://raw.githubusercontent.com/mrousavy/Toast/master/Toast/Resources/Toast_Icon.ico</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Android (Notification) Toast Control for WPF</description>
+    <releaseNotes>Added License.</releaseNotes>
+    <copyright>Copyright 2016</copyright>
+    <tags>Android WPF Toast Control Utility</tags>
+  </metadata>
+  
+  <files>
+	<file src="Toast.dll" target="lib"/>
+  </files>
+</package>
