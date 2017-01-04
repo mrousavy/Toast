@@ -1,0 +1,124 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Toast by mrousavy</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#157878">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/Toast/assets/css/style.css?v=4155258170ff528c63430b2949af7a27419ccd67">
+    <link rel="icon" type="image/ico" href="https://github.com/mrousavy/Toast/blob/master/ToastDemo/Resources/Toast_Icon.ico?raw=true"/>
+  </head>
+  <body>
+    <section class="page-header">
+        <img src="https://github.com/mrousavy/Toast/blob/master/ToastDemo/Resources/Toast_Icon.ico?raw=true" width="124" />
+      <h1 class="project-name">Toast</h1>
+      <h2 class="project-tagline">Android Toast for WPF</h2>
+      
+        <a href="https://github.com/mrousavy/Toast" class="btn">View on GitHub</a>
+        <a href="https://www.nuget.org/packages/AndroidToast/" class="btn">View on NuGet</a>
+      
+    </section>
+
+    <section class="main-content">
+<p>Android Toast for WPF</p>
+
+<p><a href="https://github.com/mrousavy/Toast/raw/master/ToastDemo/bin/Release/ToastDemo.zip">Download the Demo (.exe)</a></p>
+
+<h1 id="how-to-use">How to use</h1>
+
+<h3 id="add-binaries">1. Add Binaries</h3>
+<ul>
+  <li>NuGet
+    <ul>
+      <li><a href="https://www.nuget.org/packages/AndroidToast">Android Toast is also available on NuGet!</a>   Install by typing <code class="highlighter-rouge">Install-Package AndroidToast</code> in NuGet Package Manager Console. (Or search for <code class="highlighter-rouge">AndroidToast</code> on NuGet)</li>
+    </ul>
+  </li>
+  <li>Manually
+    <ol>
+      <li><a href="https://github.com/mrousavy/Toast/raw/master/Toast/bin/Release/Toast.dll">Download the latest Library (.dll)</a></li>
+      <li>Add the .dll to your Project   (Right click <code class="highlighter-rouge">References</code> in the Project Tree View, click <code class="highlighter-rouge">Add References</code> and <code class="highlighter-rouge">Browse</code> to the <code class="highlighter-rouge">.dll</code> File)</li>
+    </ol>
+  </li>
+</ul>
+
+<h3 id="add-the-reference">2. Add the reference</h3>
+<ul>
+  <li>XAML Window</li>
+</ul>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>
+&lt;Window x:Class=”ToastDemo.MainWindow”
+    xmlns=”http://schemas.microsoft.com/winfx/2006/xaml/presentation”
+    xmlns:x=”http://schemas.microsoft.com/winfx/2006/xaml”
+    xmlns:d=”http://schemas.microsoft.com/expression/blend/2008”
+    xmlns:mc=”http://schemas.openxmlformats.org/markup-compatibility/2006”
+    xmlns:local=”clr-namespace:ToastDemo”
+    //IMPORTANT LINE!
+    xmlns:toast="clr-namespace:Toast;assembly=Toast"
+
+    mc:Ignorable="d"
+    Title="Toast Demo" Height="350" Width="525"&gt;
+</code></pre>
+</div>
+
+<ul>
+  <li>C# (using) </li>
+</ul>
+   <code class="highlighter-rouge">
+   using Toast;
+  </code>
+
+<h3 id="add-toast-to-xaml-or-in-code">3. Add Toast to XAML or in Code</h3>
+
+<ul>
+  <li>XAML</li>
+</ul>
+
+   <code class="highlighter-rouge">
+&lt;toast:Toast x:Name="myToast" Message="Hello World!" Duration="0:0:0:5" /&gt;
+  </code>
+
+<ul>
+  <li>C#</li>
+</ul>
+
+   <code class="highlighter-rouge">
+Toast.Toast myToast = new Toast.Toast();
+myToast.DurationToast = Toast.Toast.ToastDuration.Long;
+myToast.Message = “Hello World!”;
+someControl.Children.Add(myToast);
+someOtherControl.Content = myToast;
+   </code>
+
+<h3 id="set-desired-parameters">4. Set desired Parameters:</h3>
+<ul>
+  <li><code class="highlighter-rouge">Toast.Duration</code>/<code class="highlighter-rouge">Toast.DurationToast</code></li>
+  <li><code class="highlighter-rouge">Toast.Message</code>/<code class="highlighter-rouge">Toast.Content</code></li>
+  <li><code class="highlighter-rouge">Toast.DurationAnimation</code></li>
+</ul>
+
+<h3 id="show-toast">5. Show Toast:</h3>
+<ul>
+  <li><code class="highlighter-rouge">myToast.Show();</code></li>
+</ul>
+
+<h3 id="optional-hide-toast">6. (Optional) Hide Toast:</h3>
+<ul>
+  <li><code class="highlighter-rouge">myToast.Hide();</code></li>
+</ul>
+
+<h1 id="screenshot">Screenshot</h1>
+<p><img src="http://i.imgur.com/l5ACUtr.png" /></p>
+
+<h1 id="thanks-for-using-toast">Thanks for using Toast!</h1>
+
+      <footer class="site-footer">
+          <span class="site-footer-owner"><a href="https://github.com/mrousavy/Toast">Toast</a> is maintained by <a href="https://github.com/mrousavy">mrousavy</a>.</span>
+      </footer>
+    </section>
+
+    
+  </body>
+</html>
