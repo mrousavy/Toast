@@ -6,10 +6,10 @@ Android Toast for WPF
 # How to use
 
 ### 1. Add Binaries
-   #### + NuGet
+   + NuGet
       * [Android Toast is also available on NuGet!](https://www.nuget.org/packages/AndroidToast)   Install by typing `Install-Package AndroidToast` in NuGet Package Manager Console. (Or search for `AndroidToast` on NuGet)
 
-   #### + Manually
+   + Manually
       1. [Download the latest Library (.dll)](https://github.com/mrousavy/Toast/raw/master/Toast/bin/Release/Toast.dll)
       2. Add the .dll to your Project   (Right click `References` in the Project Tree View, click `Add References` and `Browse` to the `.dll` File)
 
@@ -52,9 +52,15 @@ Android Toast for WPF
    someOtherControl.Content = myToast;
    ```
 
-### 4. Set desired Parameters (`Toast.Duration`/`Toast.DurationToast`, `Toast.Message`/`Toast.Content`, `Toast.DurationAnimation`)
-### 5. Show Toast `myToast.Show();`
-### 6. (Optional) Hide Toast `myToast.Hide();`
+### 4. Set desired Parameters:
+   * `Toast.Duration`/`Toast.DurationToast`
+   * `Toast.Message`/`Toast.Content`
+   * `Toast.DurationAnimation`
+
+### 5. Show Toast:
+   * `myToast.Show();`
+### 6. (Optional) Hide Toast:
+   * `myToast.Hide();`
 
 # Screenshot
 <img src="http://i.imgur.com/l5ACUtr.png">
