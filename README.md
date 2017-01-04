@@ -59,6 +59,7 @@ Android Toast for WPF
 
 ### 5. Show Toast:
    * `myToast.Show();`
+   
 ### 6. (Optional) Hide Toast:
    * `myToast.Hide();`
 
