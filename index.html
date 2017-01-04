@@ -55,6 +55,7 @@
         xmlns:d=”http://schemas.microsoft.com/expression/blend/2008”
         xmlns:mc=”http://schemas.openxmlformats.org/markup-compatibility/2006”
         xmlns:local=”clr-namespace:ToastDemo”
+
         //IMPORTANT LINE!
         xmlns:toast="clr-namespace:Toast;assembly=Toast"
 
@@ -66,35 +67,32 @@
 <ul>
   <li>C# (using) </li>
 </ul>
-   <code class="highlighter-rouge">
-   using Toast;
-  </code>
+    <div class="highlighter-rouge"><pre class="highlight"><code>
+        using Toast;
+    </code></pre>
+    </div>
 
 <h3 id="add-toast-to-xaml-or-in-code">3. Add Toast to XAML or in Code</h3>
 
 <ul>
   <li>XAML</li>
 </ul>
-
-    <code class="highlighter-rouge">
+    <div class="highlighter-rouge"><pre class="highlight"><code>
         &lt;toast:Toast x:Name="myToast" Message="Hello World!" Duration="0:0:0:5" /&gt;
-    </code>
+    </code></pre>
+    </div>
 
 <ul>
   <li>C#</li>
 </ul>
-
-      <code class="highlighter-rouge">
+    <div class="highlighter-rouge"><pre class="highlight"><code>
         Toast.Toast myToast = new Toast.Toast();
-
         myToast.DurationToast = Toast.Toast.ToastDuration.Long;
-
         myToast.Message = “Hello World!”;
-
         someControl.Children.Add(myToast);
-
         someOtherControl.Content = myToast;
-      </code>
+    </code></pre>
+    </div>
 
 <h3 id="set-desired-parameters">4. Set desired Parameters:</h3>
 <ul>
