@@ -15,7 +15,7 @@ Android Toast for WPF
 
 ### 2. Add the reference
    * XAML Window
-   ```
+   ```XAML
    <Window x:Class="ToastDemo.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
@@ -31,19 +31,19 @@ Android Toast for WPF
    ```
 
    * C# (using)
-   ```
+   ```C#
    using Toast;
    ```
 
 ### 3. Add Toast to XAML or in Code
 
    * XAML
-   ```
+   ```XAML
    <toast:Toast x:Name="myToast" Message="Hello World!" Duration="0:0:0:5"/>
    ```
 
    * C#
-   ```
+   ```C#
    Toast.Toast myToast = new Toast.Toast();
    myToast.DurationToast = Toast.Toast.ToastDuration.Long;
    myToast.Message = "Hello World!";
