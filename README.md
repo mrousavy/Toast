@@ -63,7 +63,8 @@ Android Toast for WPF
 ### 6. (Optional) Hide Toast:
    * `myToast.Hide();`
 
-# Screenshot
+# Screenshots
 <img src="http://i.imgur.com/Wikjo4z.png">
+<img src="https://i.gyazo.com/b9d2f30c6c3d4169f8256e9ea2580b06.gif">
 
 # Thanks for using Toast!
