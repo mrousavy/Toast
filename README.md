@@ -34,6 +34,11 @@ Android Toast for WPF
    ```C#
    using Toast;
    ```
+   
+   * VB (using)
+   ```C#
+   Imports Toast;
+   ```
 
 ### 3. Add Toast to XAML or in Code
 
@@ -51,7 +56,16 @@ Android Toast for WPF
    someControl.Children.Add(myToast);
    someOtherControl.Content = myToast;
    ```
-
+   
+   * VB
+   ```VB
+   Dim myToast As new Toast.Toast()
+   myToast.DurationToast = Toast.Toast.ToastDuration.Long
+   myToast.Message = "Hello World!"
+   
+   someControl.Children.Add(myToast)
+   someOtherControl.Content = myToast
+   ```
 ### 4. Set desired Parameters:
    * `Toast.Duration`/`Toast.DurationToast`
    * `Toast.Message`/`Toast.Content`
