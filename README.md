@@ -3,11 +3,13 @@ Android Toast for WPF
 
 [Download the Demo (.exe)](https://github.com/mrousavy/Toast/raw/master/ToastDemo/bin/Release/ToastDemo.zip)
 
+[![NuGet](https://img.shields.io/nuget/dt/AndroidToast.svg)](https://www.nuget.org/packages/AndroidToast/)
+      
 # How to use
 
 ### 1. Add Binaries
    + NuGet
-      * [Android Toast is also available on NuGet!](https://www.nuget.org/packages/AndroidToast)   Install by typing `Install-Package AndroidToast` in NuGet Package Manager Console. (Or search for `AndroidToast` on NuGet)
+      * [Android Toast is also available on NuGet!](https://www.nuget.org/packages/AndroidToast)   Install by typing `Install-Package AndroidToast` in NuGet Package Manager Console. (Or search for `AndroidToast` on NuGet) 
 
    + Manually
       1. [Download the latest Library (.dll)](https://github.com/mrousavy/Toast/raw/master/Toast/bin/Release/Toast.dll)
