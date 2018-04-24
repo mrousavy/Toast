@@ -4,6 +4,8 @@ Android Toast for WPF
 [Download the Demo (.exe)](https://github.com/mrousavy/Toast/raw/master/ToastDemo/bin/Release/ToastDemo.zip)
 
 [![NuGet](https://img.shields.io/nuget/dt/AndroidToast.svg)](https://www.nuget.org/packages/AndroidToast/)
+
+<a href='https://ko-fi.com/F1F8CLXG' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://az743702.vo.msecnd.net/cdn/kofi2.png?v=0' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
       
 # How to use
 
@@ -71,4 +73,4 @@ Android Toast for WPF
 <img src="http://i.imgur.com/Wikjo4z.png">
 <img src="https://i.gyazo.com/b9d2f30c6c3d4169f8256e9ea2580b06.gif">
 
-# Thanks for using Toast!
+> Thanks for using Toast!
